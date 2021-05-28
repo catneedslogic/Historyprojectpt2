@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>My history project</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     
     
@@ -33,13 +33,8 @@
   color: #fff;
 }
 .timeline__content-desc {
-  margin: 0;
-  font-size: 15px;
-  box-sizing: border-box;
-  color: rgba(255, 255, 255, .7);
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: normal;
-  line-height: 25px;
+  max-width: 1%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .4)
 }
 .timeline:before {
   position: absolute;
@@ -57,7 +52,7 @@
 }
 .timeline-item {
   padding: 40px 0;
-  opacity: 0.3;
+  opacity: 0.7;
   filter: blur(2px);
   transition: 0.5s;
   box-sizing: border-box;
@@ -125,7 +120,8 @@
   }
 }
 .timeline__img {
-  max-width: 100%;
+  max-width: 400px;
+  height: auto;
   box-shadow: 0 10px 15px rgba(0, 0, 0, .4);
 }
 .timeline-container {
@@ -166,6 +162,14 @@
   margin: 10px 0 0 0;
   font-weight: normal;
 }
+.timeline-header__subsubtitle{
+  color: rgba(194, 189, 189, 0.569);
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
 .demo-footer {
   padding: 60px 0;
   text-align: center;
@@ -181,68 +185,146 @@
 <body>
      <div class="timeline-container" id="timeline-1">
   <div class="timeline-header">
-    <h2 class="timeline-header__title">TIMELINE DESIGN</h2>
-    <h3 class="timeline-header__subtitle">NEW AND CREATIVE</h3>
+    <h2 class="timeline-header__title">Computing History</h2>
+    <h3 class="timeline-header__subtitle">Coded and content by John Trovato</h3>
+    <h2 class="timeline-header__subsubtitle">Introduction</h2>
+    <h2><video video controls="controls" width="400" height="auto" src="assets/mov/Introduction.mov"></video></h2>
   </div>
   <div class="timeline">
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/u.jpg" />
-        <h2 class="timeline__content-title">1881</h2>
-        <p class="timeline__content-desc">He was born in 1881 (probably in the spring) in Salonica, then an Ottoman city, now inGreece. His father Ali Riza, a customs official turned lumber merchant, died when Mustafawas still a boy. His mother Zubeyde, adevout and strong-willed woman, raised him and his sister.</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The start of computers, Jacquard Loom">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/Jacquard-cards-2.jpg" />
+        <h2 class="timeline__content-title">1803</h2>
+        <p class="timeline__content-desc"><video controls="controls" width="400" height="auto" src="assets/mov/Jacquard Loom.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/r.jpg"/>
-        <h2 class="timeline__content-title">1893</h2>
-        <p class="timeline__content-desc">First enrolled in a traditionalreligious school, he soon switched to a modern school. In 1893, he entered a military highschool where his mathematics teacher gave him the second name Kemal (meaning perfection)in recognition of young Mustafa's superior achievement.</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="(First computer) Analytical Engine worked on until (Failed project)">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/analytical-engine-04.jpg"/>
+        <h2 class="timeline__content-title">1871</h2>
+        <p class="timeline__content-desc"><video controls="controls" width="400" height="auto" src="assets/mov/Analytical engine.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/y.jpg"/>
-        <h2 class="timeline__content-title">1905</h2>
-        <p class="timeline__content-desc">In 1905, Mustafa Kemal graduated from the War Academy in Istanbul with the rank of Staff Captain. Posted in Damascus, he started with several colleagues, a clandestinesociety called "Homeland and Freedom" to fight against the Sultan'sdespotism.</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="World War II Telex messaging network">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/Telex_machine_ASR-32.jpg"/>
+        <h2 class="timeline__content-title">1933</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/Telex.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/adventure-backpack-beach-214575.jpg"/>
-        <h2 class="timeline__content-title">1908</h2>
-        <p class="timeline__content-desc">In 1908 he helped the group of officers who toppled the Sultan. Mustafa Kemal'scareer flourished as he won his heroism in the far corners of the Ottoman Empire,including Albania and Tripoli. He also briefly served as a staff officer in Salonica andIstanbul and as a military attache in Sofia.</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="World’s Brains">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/worldbrain.png"/>
+        <h2 class="timeline__content-title">1934</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/worlds brain.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/azadeh-oveisi-1439715-unsplash.jpg"/>
-        <h2 class="timeline__content-title">1915</h2>
-        <p class="timeline__content-desc">In 1915, when Dardanelles campaign was launched, Colonel Mustafa Kemal became anational hero by winning successive victories and finally repelling the invaders.</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="First computer without gears, cams, belts or shafts">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/firstmachinewithoutcog.jpg"/>
+        <h2 class="timeline__content-title">1937</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/computer without.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/ui.jpg"/>
-        <h2 class="timeline__content-title">1916</h2>
-        <p class="timeline__content-desc">Promotedto general in 1916, at age 35, he liberated two major provinces in eastern Turkey thatyear. In the next two years, he served as commander of several Ottoman armies inPalestine, Aleppo, and elsewhere, achieving another major victory by stopping the enemyadvance at Aleppo.</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="Hewlett-packard, Elektro robot">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/Elektrorobot.jpg"/>
+        <h2 class="timeline__content-title">1939</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/electro robot.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/uy.jpg"/>
-        <h2 class="timeline__content-title">1919</h2>
-        <p class="timeline__content-desc">On May 19, 1919, Mustafa Kemal Pasha landed in the Black Sea port of Samsun to startthe War of Independence. In defiance of the Sultan's government, he rallied a liberationarmy in Anatolia and convened the Congress of Erzurum and Sivas which established thebasis for the new national effort under his leadership.</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="Operator at Complex Number Calculator (CNC)">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/Thecomplexnumbercalculator..jpg"/>
+        <h2 class="timeline__content-title">1940</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/The complex number calculater.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/ju.jpg"/>
-        <h2 class="timeline__content-title">1920</h2>
-        <p class="timeline__content-desc">
-          On April 23, 1920, the GrandNational Assembly was inaugurated. Mustafa Kemal Pasha was elected to its Presidency.
-          Fighting on many fronts, he led his forces to victory against rebels and invadingarmies. Following the Turkish triumph at the two major battles at Inonu in Western Turkey,the Grand National Assembly conferred on Mustafa Kemal Pasha the title ofCommander-in-Chief with the rank of Marshal.
-        </p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="Z3 computer">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/Z3.jpg"/>
+        <h2 class="timeline__content-title">1941</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/Z3 computer.mov"></video></p>
       </div>
     </div>
-    <div class="timeline-item" data-text="NEW TIMELINE DESIGN">
-      <div class="timeline__content"><img class="timeline__img" src="assets/kk.jpg"/>
-        <h2 class="timeline__content-title">1922</h2>
-        <p class="timeline__content-desc">At the end of August 1922, the Turkish armieswon their ultimate victory. Within a few weeks, the Turkish mainland was completelyliberated, the armistice signed, and the rule of the Ottoman dynasty abolished</p>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The Atanasoff-Berry Computer (The ABC)">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/unnamed.jpg"/>
+        <h2 class="timeline__content-title">1942</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/the ABC.mov"></video></p>
       </div>
     </div>
-  
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="Harvard Mark 1">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/HarvardMark1.png"/>
+        <h2 class="timeline__content-title">1944</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/Harvard mark1.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The UNIVAC digital computer">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/univac-console.jpg"/>
+        <h2 class="timeline__content-title">1950</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/UNIVAC.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The computer mouse">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/mouse.jpg"/>
+        <h2 class="timeline__content-title">1963</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/the first computer mouse.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The first text message LO, router">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/180px-ARPANET_first_router_2.jpg"/>
+        <h2 class="timeline__content-title">1969</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/the first text message.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The first e-mail is sent, ARPANET">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/firstemail.jpg"/>
+        <h2 class="timeline__content-title">1971</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/the first email.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The first video game, PONG">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/pong.jpg"/>
+        <h2 class="timeline__content-title">1972</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/The first video game.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="30 million computers us the US">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/30million.jpg"/>
+        <h2 class="timeline__content-title">1986</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/30 million computers.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="Tim Berners-Lee writes the first website">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/firstwebsite.jpg"/>
+        <h2 class="timeline__content-title">1990</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/the first website.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="The machine defeats the man, in chess, deepblue">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/DeepBlue.png"/>
+        <h2 class="timeline__content-title">1997</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/deepblue.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
+    <div class="timeline-item" data-text="Google was founded">
+      <div class="timeline__content"><img class="timeline__img" src="assets/img/googlestart.jpg"/>
+        <h2 class="timeline__content-title">1998</h2>
+        <p class="timeline__content-desc"><video video controls="controls" width="400" height="auto" src="assets/mov/Google was founded.mov"></video></p>
+      </div>
+    </div>
+    <!-- ----------------------------------------------------------------------------- -->
   </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
